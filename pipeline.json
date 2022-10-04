@@ -28,8 +28,8 @@
       "sourceEntities": {
         "stagings": [
           {
-            "connectorName": "nlp",
-            "stagingName": "product"
+            "connectorName": "customer_connector",
+            "stagingName": "first_staging"
           }
         ]
       }

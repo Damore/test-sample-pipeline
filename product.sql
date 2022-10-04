@@ -1,8 +1,5 @@
 
 SELECT 
-    stg.productname as mdmname,
-    CONCAT("qawork-", stg.productname) as mdmdescription,
-    stg.productprice as mdmunitvalue,
-    CONTAINS_SUBSTR(stg.productname, 'banan') AS mdmDeleted
+    stg.id as chaveprimaria
     --metadata{nlp,product}--
-from stg_nlp_product as stg
+from stg_customer_connector_first_staging as stg

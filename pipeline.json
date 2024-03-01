@@ -19,7 +19,7 @@
       "saveToRealtime": true,
       "useBatchNotification": true,
       "cronExpressions": [
-        0 * * ? * * *"
+        0 * * ? * *"
       ],
       "timeZone": "America/Sao_Paulo",
       "prepareScripts": [

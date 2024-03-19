@@ -12,7 +12,7 @@
       "pipelineName": "generic_product_main",
       "pipelineDescription": "Pipeline for the product table, that uses staging nlp_product",
       "outputDataModelName": "mdmproduct",
-      "overlapDeltaMinutes": 181,
+      "overlapDeltaMinutes": 180,
       "saveToCds": true,
       "saveToUnified": true,
       "sendToSubscriptions": true,
@@ -28,6 +28,10 @@
       "processScript": "product.sql",
       "sourceEntities": {
         "stagings": [
+          {
+            "connectorName": "nlp",
+            "stagingName": "product"
+          }
         ]
       }
     }

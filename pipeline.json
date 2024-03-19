@@ -28,10 +28,6 @@
       "processScript": "product.sql",
       "sourceEntities": {
         "stagings": [
-          {
-            "connectorName": "nlp",
-            "stagingName": "product"
-          }
         ]
       }
     }
